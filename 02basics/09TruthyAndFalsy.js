@@ -13,7 +13,7 @@ if (user) {
 }
 
 console.log(2 + 2);
-console.log(2 + "2");//js doesn't actually know how to add a number and a string so it assumes that 2 is also a string
+console.log(2 + "2");//js doesn't actually know how to add a number and a string so it assumes that 2 is also a string =>o/p ====>22
 console.log("2" + "2");
 
 var str = "2";
@@ -29,6 +29,6 @@ if (3 === str2)
 {
     console.log("condition is true"); // === strictly checks
 } else {
-    console.log("it's not correct")
+    console.log("it's not correct");//this gets printed bcoz 3 is a value whereas "3"is a string
 }
 
